@@ -1,0 +1,22 @@
+body {
+    background-image: url(../HTML/descarga.jfif);
+    text-align: center;
+}
+#p1{
+    background-color:coral;
+}
+#p2{
+    background-color:aquamarine;
+}
+#p3{
+    background-color:blueviolet;
+}
+#p4{
+    background-color:crimson;
+}
+#p5{
+    background-color:darkcyan;
+}
+form {
+    color:blue
+}

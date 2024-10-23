@@ -1,0 +1,43 @@
+p {
+    font-style: italic;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #b74f4f;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 25px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: coral;
+}
+
+.galeria {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    height: auto;
+    width: 1000px;
+}
+
+.galeria img {
+    width: 30%;
+    margin: 5px;
+}
+
+.table-container {
+    margin: 20px 0;
+}

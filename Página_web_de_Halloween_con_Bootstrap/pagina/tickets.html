@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Festival de Criaturas de Halloween</title>
+        <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+        <link rel="stylesheet" href="../css/estilos.css">
+    </head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#">Festival de Criaturas de Halloween🎃</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item active">
+                    <a class="nav-link" href="index.html">Inicio <span class="sr-only">(actual)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="atracciones.html">Atracciones</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="monstruos.html">Monstruos</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="tickets.html">Tickets</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="container mt-5">
+        <h2 style="text-align: center; color: white;">Compra de Tickets</h2>
+        <form>
+            <div class="form-group">
+                <label for="cantidad" style="text-align: center; color: white;">Cantidad de Entradas</label>
+                <input type="number" class="form-control" id="cantidad" placeholder="Número de entradas" required>
+            </div>
+            <div class="form-group">
+                <label for="tipo" style="color: white;">Tipo de Entrada</label>
+                <select class="form-control" id="tipo">
+                    <option>Normal</option>
+                    <option>VIP</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="correo" style="color: white;">Correo Electrónico</label>
+                <input type="email" class="form-control" id="correo" placeholder="Tu correo electrónico" required>
+            </div>
+            <button type="submit" class="btn btn-primary">Comprar Entradas</button>
+        </form>
+    </div>
+    </body>
+    </html>

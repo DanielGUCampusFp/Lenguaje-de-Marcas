@@ -1,0 +1,36 @@
+body {
+    background-color: #121212;
+}
+
+.jumbotron {
+    color: white;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
+}
+
+.card {
+    background-color: #1f1f1f;
+    color: white;
+}
+
+.card-title {
+    color: #ff6600;
+}
+
+.btn-primary {
+    background-color: #ff6600;
+    border-color: #ff6600;
+}
+
+.btn-primary:hover {
+    background-color: #e65c00;
+    border-color: #e65c00;
+}
+
+.p {
+    color: white;
+}
+
+.h2 {
+    color: white;
+    text-align: center;
+}

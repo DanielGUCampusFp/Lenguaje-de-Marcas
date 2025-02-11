@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Facturación - Tienda de Mascotas</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="navbar">
+        <a href="index.html">Inicio</a>
+        <a href="clientes.html">Clientes</a>
+        <a href="pedidos.html">Pedidos</a>
+        <a href="facturas.html">Facturas</a>
+    </div>
+
+    <h1>Factura</h1>
+    <div id="factura">
+        <label for="selectCliente">Selecciona un cliente:</label>
+        <select id="selectCliente">
+            <option value="">--Selecciona un cliente--</option>
+        </select>
+        <p><strong>Cliente:</strong> <span id="clienteFactura"></span></p>
+        <p><strong>Producto:</strong> <span id="productoFactura"></span></p>
+        <p><strong>Total:</strong> <span id="totalFactura"></span></p>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

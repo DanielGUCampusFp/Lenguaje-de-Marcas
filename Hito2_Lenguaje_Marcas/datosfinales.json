@@ -1,0 +1,1140 @@
+{
+  "2023": {
+    "Q1": [
+      {
+        "pedido": "1001",
+        "fecha_compra": "2023-01-05",
+        "fecha_entrega": "2023-01-10",
+        "total_factura": 20.00,
+        "cliente": {
+          "nombre": "Pepe",
+          "apellidos": "Tronquito Xd",
+          "telefono": "600111111",
+          "direccion": {
+            "calle": "Avenida de los Troncos 1",
+            "ciudad": "Madrid",
+            "codigo_postal": "28001",
+            "provincia": "Madrid"
+          },
+          "email": "pepetronquito@email.com"
+        },
+        "productos": [
+          {
+            "nombre_producto": "Collar Perro",
+            "referencia": "COL-001",
+            "precio": 10.00,
+            "unidades": 1
+          },
+          {
+            "nombre_producto": "Juguete Gato",
+            "referencia": "JUG-002",
+            "precio": 5.00,
+            "unidades": 2
+          }
+        ]
+      },
+      {
+        "pedido": "1002",
+        "fecha_compra": "2023-01-15",
+        "fecha_entrega": "2023-01-18",
+        "total_factura": 20.00,
+        "cliente": {
+          "nombre": "Luna",
+          "apellidos": "Cosmica Spark",
+          "telefono": "600111112",
+          "direccion": {
+            "calle": "Calle Lunar 45",
+            "ciudad": "Barcelona",
+            "codigo_postal": "08001",
+            "provincia": "Barcelona"
+          },
+          "email": "lunacosmica@email.com"
+        },
+        "productos": [
+          {
+            "nombre_producto": "Correa Extensible",
+            "referencia": "COR-003",
+            "precio": 12.00,
+            "unidades": 1
+          },
+          {
+            "nombre_producto": "Comida Perro 1kg",
+            "referencia": "COM-004",
+            "precio": 8.00,
+            "unidades": 1
+          }
+        ]
+      },
+      {
+        "pedido": "1003",
+        "fecha_compra": "2023-02-02",
+        "fecha_entrega": "2023-02-07",
+        "total_factura": 14.00,
+        "cliente": {
+          "nombre": "Kevin",
+          "apellidos": "Rayo Speed",
+          "telefono": "600111113",
+          "direccion": {
+            "calle": "Paseo del Viento 3",
+            "ciudad": "Valencia",
+            "codigo_postal": "46001",
+            "provincia": "Valencia"
+          },
+          "email": "kevinrayo@email.com"
+        },
+        "productos": [
+          {
+            "nombre_producto": "Arena Gato 5kg",
+            "referencia": "ARE-005",
+            "precio": 7.00,
+            "unidades": 2
+          }
+        ]
+      },
+      {
+        "pedido": "1004",
+        "fecha_compra": "2023-02-10",
+        "fecha_entrega": "2023-02-13",
+        "total_factura": 21.00,
+        "cliente": {
+          "nombre": "Sammy",
+          "apellidos": "Glitter Boom",
+          "telefono": "600111114",
+          "direccion": {
+            "calle": "Calle Brillante 10",
+            "ciudad": "Málaga",
+            "codigo_postal": "29001",
+            "provincia": "Málaga"
+          },
+          "email": "sammyglitter@email.com"
+        },
+        "productos": [
+          {
+            "nombre_producto": "Comida Gato 1kg",
+            "referencia": "COM-006",
+            "precio": 6.00,
+            "unidades": 1
+          },
+          {
+            "nombre_producto": "Rascador Gato",
+            "referencia": "RAS-007",
+            "precio": 15.00,
+            "unidades": 1
+          }
+        ]
+      },
+      {
+        "pedido": "1005",
+        "fecha_compra": "2023-03-01",
+        "fecha_entrega": "2023-03-05",
+        "total_factura": 15.00,
+        "cliente": {
+          "nombre": "Lolita",
+          "apellidos": "Brilli Pink",
+          "telefono": "600111115",
+          "direccion": {
+            "calle": "Av. Rosa 22",
+            "ciudad": "Sevilla",
+            "codigo_postal": "41001",
+            "provincia": "Sevilla"
+          },
+          "email": "lolitabrilli@email.com"
+        },
+        "productos": [
+          {
+            "nombre_producto": "Collar Gato",
+            "referencia": "COL-008",
+            "precio": 5.00,
+            "unidades": 1
+          },
+          {
+            "nombre_producto": "Comedero Perro",
+            "referencia": "COM-009",
+            "precio": 10.00,
+            "unidades": 1
+          }
+        ]
+      }
+    ],
+    "Q2": [
+      {
+        "pedido": "1006",
+        "fecha_compra": "2023-04-03",
+        "fecha_entrega": "2023-04-07",
+        "total_factura": 17.00,
+        "cliente": {
+          "nombre": "Pepe",
+          "apellidos": "Tronquito Xd",
+          "telefono": "600111111",
+          "direccion": {
+            "calle": "Avenida de los Troncos 1",
+            "ciudad": "Madrid",
+            "codigo_postal": "28001",
+            "provincia": "Madrid"
+          },
+          "email": "pepetronquito@email.com"
+        },
+        "productos": [
+          {
+            "nombre_producto": "Peine Perro",
+            "referencia": "PEI-010",
+            "precio": 4.00,
+            "unidades": 2
+          },
+          {
+            "nombre_producto": "Snacks Gato",
+            "referencia": "SNA-011",
+            "precio": 3.00,
+            "unidades": 3
+          }
+        ]
+      },
+      {
+        "pedido": "1007",
+        "fecha_compra": "2023-04-15",
+        "fecha_entrega": "2023-04-20",
+        "total_factura": 20.00,
+        "cliente": {
+          "nombre": "Luna",
+          "apellidos": "Cosmica Spark",
+          "telefono": "600111112",
+          "direccion": {
+            "calle": "Calle Lunar 45",
+            "ciudad": "Barcelona",
+            "codigo_postal": "08001",
+            "provincia": "Barcelona"
+          },
+          "email": "lunacosmica@email.com"
+        },
+        "productos": [
+          {
+            "nombre_producto": "Cama Perro",
+            "referencia": "CAM-012",
+            "precio": 20.00,
+            "unidades": 1
+          }
+        ]
+      },
+      {
+        "pedido": "1008",
+        "fecha_compra": "2023-05-10",
+        "fecha_entrega": "2023-05-15",
+        "total_factura": 25.00,
+        "cliente": {
+          "nombre": "Kevin",
+          "apellidos": "Rayo Speed",
+          "telefono": "600111113",
+          "direccion": {
+            "calle": "Paseo del Viento 3",
+            "ciudad": "Valencia",
+            "codigo_postal": "46001",
+            "provincia": "Valencia"
+          },
+          "email": "kevinrayo@email.com"
+        },
+        "productos": [
+          {
+            "nombre_producto": "Transportin Gato",
+            "referencia": "TRA-013",
+            "precio": 25.00,
+            "unidades": 1
+          }
+        ]
+      },
+      {
+        "pedido": "1009",
+        "fecha_compra": "2023-05-20",
+        "fecha_entrega": "2023-05-25",
+        "total_factura": 10.00,
+        "cliente": {
+          "nombre": "Sammy",
+          "apellidos": "Glitter Boom",
+          "telefono": "600111114",
+          "direccion": {
+            "calle": "Calle Brillante 10",
+            "ciudad": "Málaga",
+            "codigo_postal": "29001",
+            "provincia": "Málaga"
+          },
+          "email": "sammyglitter@email.com"
+        },
+        "productos": [
+          {
+            "nombre_producto": "Hueso Masticable",
+            "referencia": "HUE-014",
+            "precio": 5.00,
+            "unidades": 2
+          }
+        ]
+      },
+      {
+        "pedido": "1010",
+        "fecha_compra": "2023-06-01",
+        "fecha_entrega": "2023-06-05",
+        "total_factura": 16.00,
+        "cliente": {
+          "nombre": "Lolita",
+          "apellidos": "Brilli Pink",
+          "telefono": "600111115",
+          "direccion": {
+            "calle": "Av. Rosa 22",
+            "ciudad": "Sevilla",
+            "codigo_postal": "41001",
+            "provincia": "Sevilla"
+          },
+          "email": "lolitabrilli@email.com"
+        },
+        "productos": [
+          {
+            "nombre_producto": "Juguete Perro Pelota",
+            "referencia": "JUG-015",
+            "precio": 6.00,
+            "unidades": 2
+          },
+          {
+            "nombre_producto": "Snacks Perro",
+            "referencia": "SNA-016",
+            "precio": 4.00,
+            "unidades": 1
+          }
+        ]
+      }
+    ],
+    "Q3": [
+      {
+        "pedido": "1011",
+        "fecha_compra": "2023-07-02",
+        "fecha_entrega": "2023-07-06",
+        "total_factura": 6.00,
+        "cliente": {
+          "nombre": "Tony",
+          "apellidos": "Loco Beats",
+          "telefono": "600111116",
+          "direccion": {
+            "calle": "Calle Alegria 9",
+            "ciudad": "Zaragoza",
+            "codigo_postal": "50001",
+            "provincia": "Zaragoza"
+          },
+          "email": "tonyloco@email.com"
+        },
+        "productos": [
+          {
+            "nombre_producto": "Comida Hámster 500g",
+            "referencia": "COM-017",
+            "precio": 3.00,
+            "unidades": 2
+          }
+        ]
+      },
+      {
+        "pedido": "1012",
+        "fecha_compra": "2023-07-10",
+        "fecha_entrega": "2023-07-14",
+        "total_factura": 15.00,
+        "cliente": {
+          "nombre": "Estrella",
+          "apellidos": "Ninja Light",
+          "telefono": "600111117",
+          "direccion": {
+            "calle": "Plaza Estrella 4",
+            "ciudad": "Bilbao",
+            "codigo_postal": "48001",
+            "provincia": "Vizcaya"
+          },
+          "email": "estrellaninja@email.com"
+        },
+        "productos": [
+          {
+            "nombre_producto": "Jaula Pájaro",
+            "referencia": "JAU-018",
+            "precio": 15.00,
+            "unidades": 1
+          }
+        ]
+      },
+      {
+        "pedido": "1013",
+        "fecha_compra": "2023-08-01",
+        "fecha_entrega": "2023-08-05",
+        "total_factura": 18.00,
+        "cliente": {
+          "nombre": "Goku",
+          "apellidos": "Ramirez Kame",
+          "telefono": "600111118",
+          "direccion": {
+            "calle": "Calle Saiyan 89",
+            "ciudad": "Murcia",
+            "codigo_postal": "30001",
+            "provincia": "Murcia"
+          },
+          "email": "gokuramirez@email.com"
+        },
+        "productos": [
+          {
+            "nombre_producto": "Cortauñas Perro",
+            "referencia": "COR-019",
+            "precio": 8.00,
+            "unidades": 1
+          },
+          {
+            "nombre_producto": "Arnés Gato",
+            "referencia": "ARN-020",
+            "precio": 10.00,
+            "unidades": 1
+          }
+        ]
+      },
+      {
+        "pedido": "1014",
+        "fecha_compra": "2023-08-15",
+        "fecha_entrega": "2023-08-20",
+        "total_factura": 11.00,
+        "cliente": {
+          "nombre": "Dark",
+          "apellidos": "Master Evil",
+          "telefono": "600111119",
+          "direccion": {
+            "calle": "Av. Oscura 6",
+            "ciudad": "Granada",
+            "codigo_postal": "18001",
+            "provincia": "Granada"
+          },
+          "email": "darkmaster@email.com"
+        },
+        "productos": [
+          {
+            "nombre_producto": "Cepillo Peinado Perro",
+            "referencia": "CEP-021",
+            "precio": 5.00,
+            "unidades": 1
+          },
+          {
+            "nombre_producto": "Comida Pez",
+            "referencia": "COM-022",
+            "precio": 2.00,
+            "unidades": 3
+          }
+        ]
+      },
+      {
+        "pedido": "1015",
+        "fecha_compra": "2023-09-05",
+        "fecha_entrega": "2023-09-10",
+        "total_factura": 30.00,
+        "cliente": {
+          "nombre": "Rubi",
+          "apellidos": "Tornado Fiu",
+          "telefono": "600111120",
+          "direccion": {
+            "calle": "Calle Viento 33",
+            "ciudad": "Valladolid",
+            "codigo_postal": "47001",
+            "provincia": "Valladolid"
+          },
+          "email": "rubitornado@email.com"
+        },
+        "productos": [
+          {
+            "nombre_producto": "Terrario Reptil",
+            "referencia": "TER-023",
+            "precio": 30.00,
+            "unidades": 1
+          }
+        ]
+      }
+    ],
+    "Q4": [
+      {
+        "pedido": "1016",
+        "fecha_compra": "2023-10-01",
+        "fecha_entrega": "2023-10-06",
+        "total_factura": 10.00,
+        "cliente": {
+          "nombre": "Tony",
+          "apellidos": "Loco Beats",
+          "telefono": "600111116",
+          "direccion": {
+            "calle": "Calle Alegria 9",
+            "ciudad": "Zaragoza",
+            "codigo_postal": "50001",
+            "provincia": "Zaragoza"
+          },
+          "email": "tonyloco@email.com"
+        },
+        "productos": [
+          {
+            "nombre_producto": "Comida Conejo 1kg",
+            "referencia": "COM-024",
+            "precio": 5.00,
+            "unidades": 2
+          }
+        ]
+      },
+      {
+        "pedido": "1017",
+        "fecha_compra": "2023-10-12",
+        "fecha_entrega": "2023-10-17",
+        "total_factura": 4.00,
+        "cliente": {
+          "nombre": "Estrella",
+          "apellidos": "Ninja Light",
+          "telefono": "600111117",
+          "direccion": {
+            "calle": "Plaza Estrella 4",
+            "ciudad": "Bilbao",
+            "codigo_postal": "48001",
+            "provincia": "Vizcaya"
+          },
+          "email": "estrellaninja@email.com"
+        },
+        "productos": [
+          {
+            "nombre_producto": "Bebedero Roedor",
+            "referencia": "BEB-025",
+            "precio": 4.00,
+            "unidades": 1
+          }
+        ]
+      },
+      {
+        "pedido": "1018",
+        "fecha_compra": "2023-11-05",
+        "fecha_entrega": "2023-11-10",
+        "total_factura": 10.00,
+        "cliente": {
+          "nombre": "Goku",
+          "apellidos": "Ramirez Kame",
+          "telefono": "600111118",
+          "direccion": {
+            "calle": "Calle Saiyan 89",
+            "ciudad": "Murcia",
+            "codigo_postal": "30001",
+            "provincia": "Murcia"
+          },
+          "email": "gokuramirez@email.com"
+        },
+        "productos": [
+          {
+            "nombre_producto": "Juguete Perro Soga",
+            "referencia": "JUG-026",
+            "precio": 5.00,
+            "unidades": 2
+          }
+        ]
+      },
+      {
+        "pedido": "1019",
+        "fecha_compra": "2023-11-20",
+        "fecha_entrega": "2023-11-25",
+        "total_factura": 16.00,
+        "cliente": {
+          "nombre": "Dark",
+          "apellidos": "Master Evil",
+          "telefono": "600111119",
+          "direccion": {
+            "calle": "Av. Oscura 6",
+            "ciudad": "Granada",
+            "codigo_postal": "18001",
+            "provincia": "Granada"
+          },
+          "email": "darkmaster@email.com"
+        },
+        "productos": [
+          {
+            "nombre_producto": "Comida Tortuga 200g",
+            "referencia": "COM-027",
+            "precio": 4.00,
+            "unidades": 1
+          },
+          {
+            "nombre_producto": "Filtro Acuario",
+            "referencia": "FIL-028",
+            "precio": 12.00,
+            "unidades": 1
+          }
+        ]
+      },
+      {
+        "pedido": "1020",
+        "fecha_compra": "2023-12-01",
+        "fecha_entrega": "2023-12-06",
+        "total_factura": 15.00,
+        "cliente": {
+          "nombre": "Rubi",
+          "apellidos": "Tornado Fiu",
+          "telefono": "600111120",
+          "direccion": {
+            "calle": "Calle Viento 33",
+            "ciudad": "Valladolid",
+            "codigo_postal": "47001",
+            "provincia": "Valladolid"
+          },
+          "email": "rubitornado@email.com"
+        },
+        "productos": [
+          {
+            "nombre_producto": "Calefactor Acuario",
+            "referencia": "CAL-029",
+            "precio": 15.00,
+            "unidades": 1
+          }
+        ]
+      }
+    ]
+  },
+  "2024": {
+    "Q1": [
+      {
+        "pedido": "2001",
+        "fecha_compra": "2024-01-05",
+        "fecha_entrega": "2024-01-10",
+        "total_factura": 22.00,
+        "cliente": {
+          "nombre": "Pepe",
+          "apellidos": "Tronquito Xd",
+          "telefono": "600111111",
+          "direccion": {
+            "calle": "Avenida de los Troncos 1",
+            "ciudad": "Madrid",
+            "codigo_postal": "28001",
+            "provincia": "Madrid"
+          },
+          "email": "pepetronquito@email.com"
+        },
+        "productos": [
+          {
+            "nombre_producto": "Collar Perro",
+            "referencia": "COL-101",
+            "precio": 10.00,
+            "unidades": 1
+          },
+          {
+            "nombre_producto": "Comida Gato 2kg",
+            "referencia": "COM-102",
+            "precio": 12.00,
+            "unidades": 1
+          }
+        ]
+      },
+      {
+        "pedido": "2002",
+        "fecha_compra": "2024-01-18",
+        "fecha_entrega": "2024-01-22",
+        "total_factura": 25.00,
+        "cliente": {
+          "nombre": "Luna",
+          "apellidos": "Cosmica Spark",
+          "telefono": "600111112",
+          "direccion": {
+            "calle": "Calle Lunar 45",
+            "ciudad": "Barcelona",
+            "codigo_postal": "08001",
+            "provincia": "Barcelona"
+          },
+          "email": "lunacosmica@email.com"
+        },
+        "productos": [
+          {
+            "nombre_producto": "Rascador Gato Grande",
+            "referencia": "RAS-103",
+            "precio": 25.00,
+            "unidades": 1
+          }
+        ]
+      },
+      {
+        "pedido": "2003",
+        "fecha_compra": "2024-02-10",
+        "fecha_entrega": "2024-02-15",
+        "total_factura": 16.00,
+        "cliente": {
+          "nombre": "Kevin",
+          "apellidos": "Rayo Speed",
+          "telefono": "600111113",
+          "direccion": {
+            "calle": "Paseo del Viento 3",
+            "ciudad": "Valencia",
+            "codigo_postal": "46001",
+            "provincia": "Valencia"
+          },
+          "email": "kevinrayo@email.com"
+        },
+        "productos": [
+          {
+            "nombre_producto": "Juguete Perro Mordedor",
+            "referencia": "JUG-104",
+            "precio": 8.00,
+            "unidades": 2
+          }
+        ]
+      },
+      {
+        "pedido": "2004",
+        "fecha_compra": "2024-02-25",
+        "fecha_entrega": "2024-02-29",
+        "total_factura": 15.00,
+        "cliente": {
+          "nombre": "Sammy",
+          "apellidos": "Glitter Boom",
+          "telefono": "600111114",
+          "direccion": {
+            "calle": "Calle Brillante 10",
+            "ciudad": "Málaga",
+            "codigo_postal": "29001",
+            "provincia": "Málaga"
+          },
+          "email": "sammyglitter@email.com"
+        },
+        "productos": [
+          {
+            "nombre_producto": "Comida Gato Premium 2kg",
+            "referencia": "COM-105",
+            "precio": 15.00,
+            "unidades": 1
+          }
+        ]
+      },
+      {
+        "pedido": "2005",
+        "fecha_compra": "2024-03-05",
+        "fecha_entrega": "2024-03-10",
+        "total_factura": 20.00,
+        "cliente": {
+          "nombre": "Lolita",
+          "apellidos": "Brilli Pink",
+          "telefono": "600111115",
+          "direccion": {
+            "calle": "Av. Rosa 22",
+            "ciudad": "Sevilla",
+            "codigo_postal": "41001",
+            "provincia": "Sevilla"
+          },
+          "email": "lolitabrilli@email.com"
+        },
+        "productos": [
+          {
+            "nombre_producto": "Arena Gato Premium 10kg",
+            "referencia": "ARE-106",
+            "precio": 20.00,
+            "unidades": 1
+          }
+        ]
+      }
+    ],
+    "Q2": [
+      {
+        "pedido": "2006",
+        "fecha_compra": "2024-04-01",
+        "fecha_entrega": "2024-04-05",
+        "total_factura": 6.00,
+        "cliente": {
+          "nombre": "Pepe",
+          "apellidos": "Tronquito Xd",
+          "telefono": "600111111",
+          "direccion": {
+            "calle": "Avenida de los Troncos 1",
+            "ciudad": "Madrid",
+            "codigo_postal": "28001",
+            "provincia": "Madrid"
+          },
+          "email": "pepetronquito@email.com"
+        },
+        "productos": [
+          {
+            "nombre_producto": "Snacks Perro Mix",
+            "referencia": "SNA-107",
+            "precio": 6.00,
+            "unidades": 1
+          }
+        ]
+      },
+      {
+        "pedido": "2007",
+        "fecha_compra": "2024-04-12",
+        "fecha_entrega": "2024-04-16",
+        "total_factura": 16.00,
+        "cliente": {
+          "nombre": "Luna",
+          "apellidos": "Cosmica Spark",
+          "telefono": "600111112",
+          "direccion": {
+            "calle": "Calle Lunar 45",
+            "ciudad": "Barcelona",
+            "codigo_postal": "08001",
+            "provincia": "Barcelona"
+          },
+          "email": "lunacosmica@email.com"
+        },
+        "productos": [
+          {
+            "nombre_producto": "Correa Nylon Perro",
+            "referencia": "COR-108",
+            "precio": 10.00,
+            "unidades": 1
+          },
+          {
+            "nombre_producto": "Pelota Saltarina Gato",
+            "referencia": "PEL-109",
+            "precio": 3.00,
+            "unidades": 2
+          }
+        ]
+      },
+      {
+        "pedido": "2008",
+        "fecha_compra": "2024-05-01",
+        "fecha_entrega": "2024-05-06",
+        "total_factura": 30.00,
+        "cliente": {
+          "nombre": "Kevin",
+          "apellidos": "Rayo Speed",
+          "telefono": "600111113",
+          "direccion": {
+            "calle": "Paseo del Viento 3",
+            "ciudad": "Valencia",
+            "codigo_postal": "46001",
+            "provincia": "Valencia"
+          },
+          "email": "kevinrayo@email.com"
+        },
+        "productos": [
+          {
+            "nombre_producto": "Jaula Conejo",
+            "referencia": "JAU-110",
+            "precio": 30.00,
+            "unidades": 1
+          }
+        ]
+      },
+      {
+        "pedido": "2009",
+        "fecha_compra": "2024-05-15",
+        "fecha_entrega": "2024-05-19",
+        "total_factura": 10.00,
+        "cliente": {
+          "nombre": "Sammy",
+          "apellidos": "Glitter Boom",
+          "telefono": "600111114",
+          "direccion": {
+            "calle": "Calle Brillante 10",
+            "ciudad": "Málaga",
+            "codigo_postal": "29001",
+            "provincia": "Málaga"
+          },
+          "email": "sammyglitter@email.com"
+        },
+        "productos": [
+          {
+            "nombre_producto": "Juguete Roedor Tunel",
+            "referencia": "JUG-111",
+            "precio": 10.00,
+            "unidades": 1
+          }
+        ]
+      },
+      {
+        "pedido": "2010",
+        "fecha_compra": "2024-06-02",
+        "fecha_entrega": "2024-06-07",
+        "total_factura": 10.00,
+        "cliente": {
+          "nombre": "Lolita",
+          "apellidos": "Brilli Pink",
+          "telefono": "600111115",
+          "direccion": {
+            "calle": "Av. Rosa 22",
+            "ciudad": "Sevilla",
+            "codigo_postal": "41001",
+            "provincia": "Sevilla"
+          },
+          "email": "lolitabrilli@email.com"
+        },
+        "productos": [
+          {
+            "nombre_producto": "Comida Pez Tropical 300g",
+            "referencia": "COM-112",
+            "precio": 5.00,
+            "unidades": 2
+          }
+        ]
+      }
+    ],
+    "Q3": [
+      {
+        "pedido": "2011",
+        "fecha_compra": "2024-07-05",
+        "fecha_entrega": "2024-07-09",
+        "total_factura": 4.00,
+        "cliente": {
+          "nombre": "Tony",
+          "apellidos": "Loco Beats",
+          "telefono": "600111116",
+          "direccion": {
+            "calle": "Calle Alegria 9",
+            "ciudad": "Zaragoza",
+            "codigo_postal": "50001",
+            "provincia": "Zaragoza"
+          },
+          "email": "tonyloco@email.com"
+        },
+        "productos": [
+          {
+            "nombre_producto": "Collar Conejo",
+            "referencia": "COL-113",
+            "precio": 4.00,
+            "unidades": 1
+          }
+        ]
+      },
+      {
+        "pedido": "2012",
+        "fecha_compra": "2024-07-18",
+        "fecha_entrega": "2024-07-22",
+        "total_factura": 5.00,
+        "cliente": {
+          "nombre": "Estrella",
+          "apellidos": "Ninja Light",
+          "telefono": "600111117",
+          "direccion": {
+            "calle": "Plaza Estrella 4",
+            "ciudad": "Bilbao",
+            "codigo_postal": "48001",
+            "provincia": "Vizcaya"
+          },
+          "email": "estrellaninja@email.com"
+        },
+        "productos": [
+          {
+            "nombre_producto": "Comida Pájaro 1kg",
+            "referencia": "COM-114",
+            "precio": 5.00,
+            "unidades": 1
+          }
+        ]
+      },
+      {
+        "pedido": "2013",
+        "fecha_compra": "2024-08-01",
+        "fecha_entrega": "2024-08-06",
+        "total_factura": 12.00,
+        "cliente": {
+          "nombre": "Goku",
+          "apellidos": "Ramirez Kame",
+          "telefono": "600111118",
+          "direccion": {
+            "calle": "Calle Saiyan 89",
+            "ciudad": "Murcia",
+            "codigo_postal": "30001",
+            "provincia": "Murcia"
+          },
+          "email": "gokuramirez@email.com"
+        },
+        "productos": [
+          {
+            "nombre_producto": "Antipulgas Perro",
+            "referencia": "ANT-115",
+            "precio": 12.00,
+            "unidades": 1
+          }
+        ]
+      },
+      {
+        "pedido": "2014",
+        "fecha_compra": "2024-08-20",
+        "fecha_entrega": "2024-08-25",
+        "total_factura": 11.00,
+        "cliente": {
+          "nombre": "Dark",
+          "apellidos": "Master Evil",
+          "telefono": "600111119",
+          "direccion": {
+            "calle": "Av. Oscura 6",
+            "ciudad": "Granada",
+            "codigo_postal": "18001",
+            "provincia": "Granada"
+          },
+          "email": "darkmaster@email.com"
+        },
+        "productos": [
+          {
+            "nombre_producto": "Juguete Erizo",
+            "referencia": "JUG-116",
+            "precio": 5.00,
+            "unidades": 1
+          },
+          {
+            "nombre_producto": "Comida Erizo 500g",
+            "referencia": "COM-117",
+            "precio": 6.00,
+            "unidades": 1
+          }
+        ]
+      },
+      {
+        "pedido": "2015",
+        "fecha_compra": "2024-09-10",
+        "fecha_entrega": "2024-09-15",
+        "total_factura": 20.00,
+        "cliente": {
+          "nombre": "Rubi",
+          "apellidos": "Tornado Fiu",
+          "telefono": "600111120",
+          "direccion": {
+            "calle": "Calle Viento 33",
+            "ciudad": "Valladolid",
+            "codigo_postal": "47001",
+            "provincia": "Valladolid"
+          },
+          "email": "rubitornado@email.com"
+        },
+        "productos": [
+          {
+            "nombre_producto": "Sustrato Reptil",
+            "referencia": "SUS-118",
+            "precio": 10.00,
+            "unidades": 2
+          }
+        ]
+      }
+    ],
+    "Q4": [
+      {
+        "pedido": "2016",
+        "fecha_compra": "2024-10-02",
+        "fecha_entrega": "2024-10-07",
+        "total_factura": 15.00,
+        "cliente": {
+          "nombre": "Tony",
+          "apellidos": "Loco Beats",
+          "telefono": "600111116",
+          "direccion": {
+            "calle": "Calle Alegria 9",
+            "ciudad": "Zaragoza",
+            "codigo_postal": "50001",
+            "provincia": "Zaragoza"
+          },
+          "email": "tonyloco@email.com"
+        },
+        "productos": [
+          {
+            "nombre_producto": "Lampara Calor Reptil",
+            "referencia": "LAM-119",
+            "precio": 15.00,
+            "unidades": 1
+          }
+        ]
+      },
+      {
+        "pedido": "2017",
+        "fecha_compra": "2024-10-18",
+        "fecha_entrega": "2024-10-23",
+        "total_factura": 3.00,
+        "cliente": {
+          "nombre": "Estrella",
+          "apellidos": "Ninja Light",
+          "telefono": "600111117",
+          "direccion": {
+            "calle": "Plaza Estrella 4",
+            "ciudad": "Bilbao",
+            "codigo_postal": "48001",
+            "provincia": "Vizcaya"
+          },
+          "email": "estrellaninja@email.com"
+        },
+        "productos": [
+          {
+            "nombre_producto": "Bebedero Pájaro",
+            "referencia": "BEB-120",
+            "precio": 3.00,
+            "unidades": 1
+          }
+        ]
+      },
+      {
+        "pedido": "2018",
+        "fecha_compra": "2024-11-05",
+        "fecha_entrega": "2024-11-10",
+        "total_factura": 26.00,
+        "cliente": {
+          "nombre": "Goku",
+          "apellidos": "Ramirez Kame",
+          "telefono": "600111118",
+          "direccion": {
+            "calle": "Calle Saiyan 89",
+            "ciudad": "Murcia",
+            "codigo_postal": "30001",
+            "provincia": "Murcia"
+          },
+          "email": "gokuramirez@email.com"
+        },
+        "productos": [
+          {
+            "nombre_producto": "Hueso Juguete Perro",
+            "referencia": "HUE-121",
+            "precio": 6.00,
+            "unidades": 1
+          },
+          {
+            "nombre_producto": "Collar Anti-Ladridos",
+            "referencia": "COL-122",
+            "precio": 20.00,
+            "unidades": 1
+          }
+        ]
+      },
+      {
+        "pedido": "2019",
+        "fecha_compra": "2024-11-20",
+        "fecha_entrega": "2024-11-25",
+        "total_factura": 10.00,
+        "cliente": {
+          "nombre": "Dark",
+          "apellidos": "Master Evil",
+          "telefono": "600111119",
+          "direccion": {
+            "calle": "Av. Oscura 6",
+            "ciudad": "Granada",
+            "codigo_postal": "18001",
+            "provincia": "Granada"
+          },
+          "email": "darkmaster@email.com"
+        },
+        "productos": [
+          {
+            "nombre_producto": "Comida Gato Light 2kg",
+            "referencia": "COM-123",
+            "precio": 10.00,
+            "unidades": 1
+          }
+        ]
+      },
+      {
+        "pedido": "2020",
+        "fecha_compra": "2024-12-01",
+        "fecha_entrega": "2024-12-06",
+        "total_factura": 12.00,
+        "cliente": {
+          "nombre": "Rubi",
+          "apellidos": "Tornado Fiu",
+          "telefono": "600111120",
+          "direccion": {
+            "calle": "Calle Viento 33",
+            "ciudad": "Valladolid",
+            "codigo_postal": "47001",
+            "provincia": "Valladolid"
+          },
+          "email": "rubitornado@email.com"
+        },
+        "productos": [
+          {
+            "nombre_producto": "Comida Perro Senior 2kg",
+            "referencia": "COM-124",
+            "precio": 12.00,
+            "unidades": 1
+          }
+        ]
+      }
+    ]
+  }
+}

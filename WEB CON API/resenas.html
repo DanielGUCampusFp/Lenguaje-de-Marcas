@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reseñas</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        .review-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+            gap: 20px;
+        }
+        .review-card {
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+        .review-card h3 {
+            margin: 0 0 10px
+        }
+        .stars {
+            color: #f5c518;
+        }
+        .review-text {
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+    <nav style="padding-right: 550px;" class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">Inicio</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="galeria.html">Galería</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="resenas.html">Reseñas</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <h1 style="margin: 40px;">Reseñas</h1>
+    <div style="margin: 40px;" class="review-grid">
+        <div class="review-card">
+            <h3>Juan Pérez</h3>
+            <div class="stars">★★★★☆</div>
+            <p class="review-text">El lugar es muy acogedor y el servicio es excelente. Definitivamente volveré.</p>
+        </div>
+        <div class="review-card">
+            <h3>María López</h3>
+            <div class="stars">★☆☆☆☆</div>
+            <p class="review-text">Vaya sitio de mierda para veranear, habia cuando fui a mediados de Junio muchos gitanos y alli veranea Raul.</p>

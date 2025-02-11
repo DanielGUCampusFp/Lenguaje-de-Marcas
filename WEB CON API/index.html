@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calpe - Lugar de Interés</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav style="padding-right: 550px;" class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">Inicio</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="galeria.html">Galería</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="resenas.html">Reseñas</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container mt-5">
+        <div class="row">
+            <div class="col-md-6">
+                <h1>Bienvenido a Calpe</h1>
+                <p>Calpe, situada en la provincia de Alicante, es un lugar emblemático en la Costa Blanca conocido por sus playas de aguas cristalinas, su rica historia y su famoso Peñón de Ifach. Este pequeño pero encantador pueblo combina a la perfección belleza natural, cultura y gastronomía.</p>
+                <h3>Ubicación</h3>
+                <p>Calpe, Alicante, España</p>
+                <div>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3135.435023227564!2d0.04433717591416914!3d38.64474097961025!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd621d317e4c2c01%3A0x8a5694c2c9e69dc4!2sCalpe%2C%20Alicante%2C%20Spain!5e0!3m2!1sen!2sus!4v1684227589143!5m2!1sen!2sus" width="100%" height="250" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <img src="https://www.guiarepsol.com/content/dam/repsol-guia/contenidos-imagenes/viajar/vamos-de-excursion/guia-de-calpe/gr-cms-media-featured_images-2330-6e772d84-c4da-4d65-93aa-fd8cf461371f-batch__va_6202.jpg" alt="El Peñón de Ifach en Calpe" class="img-fluid rounded">
+                <h3>Información Meteorológica</h3>
+                <div id="weather" class="mt-3">
+                    <p>Cargando información meteorológica...</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer class="bg-dark text-light text-center py-3 mt-5">
+        <p>&copy; 2025 Calpe - Lugar de Interés. Todos los derechos reservados.</p>
+    </footer>
+    <script>
+        const API_URL = 'https://www.el-tiempo.net/api/json/v2/provincias/28';
+    
+        const contenido = document.getElementById('weather');
+    
+        fetch(API_URL)
+        .then(response => {
+            if (!response.ok) {
+                throw new Error('Error al obtener los datos de la API');
+            }
+            return response.json();
+            })
+        .then(data => {
+            contenido.innerHTML = '';
+    
+            const titulo = document.createElement('p');
+            titulo.textContent = `Título: ${data.title}`;
+            contenido.appendChild(titulo);
+    
+            const todayInfo = document.createElement('p');
+            todayInfo.textContent = `Hoy: ${data.today.p}`;
+            contenido.appendChild(todayInfo);
+    
+            const tempMax = document.createElement('p');
+            if (data.ciudades && data.ciudades.length > 0) {
+                tempMax.textContent = `Temperatura máxima: ${data.ciudades[0].temperatures.max}°C`;
+            } else {
+                tempMax.textContent = `No hay información de temperaturas disponibles.`;
+            }
+            contenido.appendChild(tempMax);
+            })
+            .catch(error => {
+                contenido.innerHTML = `<p>Error: ${error.message}</p>`;
+            });
+    </script>
+</body>
+</html>
